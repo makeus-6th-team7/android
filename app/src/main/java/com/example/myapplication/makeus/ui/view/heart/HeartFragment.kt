@@ -1,4 +1,4 @@
-package com.example.myapplication.ui.view.heart
+package com.example.myapplication.makeus.ui.view.heart
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.myapplication.R
-import com.example.myapplication.ui.adapter.HeartAdapter
+import com.example.myapplication.makeus.ui.adapter.HeartAdapter
 
 class HeartFragment : Fragment() {
 

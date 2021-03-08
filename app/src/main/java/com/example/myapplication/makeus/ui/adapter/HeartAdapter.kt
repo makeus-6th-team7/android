@@ -1,7 +1,5 @@
-package com.example.myapplication.ui.adapter
+package com.example.myapplication.makeus.ui.adapter
 
-import android.content.Context
-import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -11,10 +9,10 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentTransaction
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.myapplication.App
+import com.example.myapplication.com.example.myapplication.makeus.ui.App
 import com.example.myapplication.R
 import com.example.myapplication.com.example.myapplication.ui.view.heart.HeartDetailFragment
-import com.example.myapplication.ui.view.heart.Image
+import com.example.myapplication.makeus.ui.view.heart.Image
 
 class HeartAdapter(
     private var myHeartList: ArrayList<Image>

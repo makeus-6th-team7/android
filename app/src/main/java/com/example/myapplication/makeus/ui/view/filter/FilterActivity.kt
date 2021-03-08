@@ -1,4 +1,4 @@
-package com.example.myapplication.ui.view.filter
+package com.example.myapplication.makeus.ui.view.filter
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

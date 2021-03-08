@@ -1,4 +1,4 @@
-package com.example.myapplication.ui.view.search
+package com.example.myapplication.makeus.ui.view.search
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,14 +8,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageButton
-import android.widget.TableLayout
 import androidx.recyclerview.widget.RecyclerView
 import com.example.myapplication.R
-import com.example.myapplication.ui.adapter.SearchMultiAdapter
-import com.example.myapplication.ui.view.filter.FilterActivity
+import com.example.myapplication.makeus.ui.adapter.SearchMultiAdapter
+import com.example.myapplication.makeus.ui.view.filter.FilterActivity
 import com.google.android.material.tabs.TabLayout
-import com.google.android.material.tabs.TabLayout.OnTabSelectedListener
-import kotlinx.android.synthetic.main.fragment_search.*
 
 class SearchFragment : Fragment() {
 

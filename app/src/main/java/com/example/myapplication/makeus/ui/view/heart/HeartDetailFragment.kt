@@ -1,14 +1,16 @@
 package com.example.myapplication.com.example.myapplication.ui.view.heart
 
+import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageButton
+import androidx.activity.OnBackPressedCallback
 import androidx.fragment.app.Fragment
 import com.example.myapplication.R
-import com.example.myapplication.ui.view.filter.FilterActivity
+import com.example.myapplication.makeus.ui.view.filter.FilterActivity
 
 class HeartDetailFragment : Fragment() {
     private lateinit var v: View

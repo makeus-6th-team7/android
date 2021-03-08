@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.example.myapplication.com.example.myapplication.makeus.ui
 
 import android.app.Application
 

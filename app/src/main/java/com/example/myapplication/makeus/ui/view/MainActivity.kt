@@ -1,13 +1,13 @@
-package com.example.myapplication.ui.view
+package com.example.myapplication.makeus.ui.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import com.example.myapplication.R
-import com.example.myapplication.ui.view.heart.HeartFragment
-import com.example.myapplication.ui.view.home.HomeFragment
-import com.example.myapplication.ui.view.search.SearchFragment
-import com.example.myapplication.ui.view.setting.SettingFragment
+import com.example.myapplication.makeus.ui.view.heart.HeartFragment
+import com.example.myapplication.makeus.ui.view.home.HomeFragment
+import com.example.myapplication.makeus.ui.view.search.SearchFragment
+import com.example.myapplication.makeus.ui.view.setting.SettingFragment
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
