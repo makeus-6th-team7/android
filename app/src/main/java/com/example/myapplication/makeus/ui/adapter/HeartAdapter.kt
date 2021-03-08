@@ -29,7 +29,7 @@ class HeartAdapter(
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): HeartAdapter.ViewHolder {
 
-        view = LayoutInflater.from(parent.context).inflate(R.layout.heart_item, parent, false)
+        view = LayoutInflater.from(parent.context).inflate(R.layout.item_heart, parent, false)
         return ViewHolder(view)
     }
 
