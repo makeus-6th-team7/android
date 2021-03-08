@@ -18,7 +18,6 @@ class HeartFragment : Fragment() {
     private lateinit var rv_my_heart : RecyclerView
 
 
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
