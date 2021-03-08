@@ -165,5 +165,56 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/filter_spinner" />
 
+    <TextView
+        android:id="@+id/textView9"
+        style="@style/FontSubHead1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:includeFontPadding="false"
+        android:text="장점"
+        android:textColor="@color/bw_b"
+        android:textFontWeight="500"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_positive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/tv_10"
+        style="@style/FontSubHead1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:includeFontPadding="false"
+        android:text="단점"
+        android:textColor="@color/bw_b"
+        android:textFontWeight="500"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rv_positive" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_nagative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_10" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
