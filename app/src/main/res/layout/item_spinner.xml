@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tv_spinner_item"
+    style="@style/Widget.AppCompat.TextView.SpinnerItem"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:fontFamily="@font/notosanskr_regular"
+    android:includeFontPadding="false"
+    android:textColor="@color/bw_b"
+    android:textFontWeight="400"
+    android:textSize="14dp" />
